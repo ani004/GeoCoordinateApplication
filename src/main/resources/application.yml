@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/places
+
+nominatim:
+  base-url: https://nominatim.openstreetmap.org/search  # OpenStreetMap Nominatim API base URL
+  user-agent: GeoCoordinateApplication                  # User-Agent header for API requests
